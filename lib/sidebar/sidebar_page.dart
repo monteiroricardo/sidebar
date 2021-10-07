@@ -14,12 +14,12 @@ class SideBarPage extends StatelessWidget {
             Container(
               width: 200,
               height: MediaQuery.of(context).size.height,
-              color: Color(0xff212332),
+              color: const Color(0xff212332),
               child: ListView(
                 children: [
                   Container(
                     alignment: Alignment.center,
-                    padding: EdgeInsets.all(15),
+                    padding: const EdgeInsets.all(15),
                     child: Text(
                       'Flutter Sidebar',
                       style: TextStyle(
